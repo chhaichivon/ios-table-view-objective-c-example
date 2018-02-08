@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeTableViewController.h
 //  TableViewDemoObjectiveC
 //
 //  Created by Chhai Chivon on 2/9/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HomeTableViewController : UITableViewController <UITableViewDataSource,UITableViewDelegate>
 
 @end
-
